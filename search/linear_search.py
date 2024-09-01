@@ -1,3 +1,4 @@
+pos = 0
 def LinearSearch(arr,size,key):
     for i in range(size):
         if arr[i] == key:
@@ -13,6 +14,6 @@ for i in range(size):
 key = int(input("Enter element to be found : "))
 
 if LinearSearch(arr,size,key):
-    print("\nElement found at index " + str(pos))
+    print("Element found at index " + str(pos))
 else:
-    print("\nElement not found")
+    print("Element not found")
